@@ -1,0 +1,57 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// This is the progress bar background
+.progress-bar {
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 0px;
+    width: 350px;
+    margin: 10px 0;         
+    border-radius: 25px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+}
+
+// This is the progress bar element
+.progress-bar-inner {
+    display: inline-block;
+    height: 100%;
+    font-size: 100%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;
+    vertical-align: top;
+}
+
+// This is the inner text of the progress bar
+// FIXME: How to properly center this?
+.progress-bar-inner span {
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.blue span {
+    background-color: #34c2e3;   
+}
+
+.orange span {
+      background-color: #fecf23;
+      background-image: linear-gradient(top, #fecf23, #fd9215);  
+}   
+
+.green span {
+      background-color: #a5df41;
+      background-image: linear-gradient(top, #a5df41, #4ca916);  
+}
