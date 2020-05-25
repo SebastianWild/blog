@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build
-      uses: SebasWild/jekyll-build-action
+      uses: SebasWild/jekyll-build-action@445d650279c45fd66c59ddd38620ddb30fceaedf
 
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@v2.1.1
