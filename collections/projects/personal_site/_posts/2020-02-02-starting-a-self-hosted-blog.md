@@ -10,7 +10,7 @@ I'm a professional iOS developer - most of the web development world is unknown 
 
 I knew I wanted to start off with a static site using Jekyll. Jekyll caters super well to blogs, with tons of readily available themes and markdown-powered posting. It's a good way for me to start my web learning journey 👍.
 
-I also knew that I wanted to self-host. Something like GitHub pages is enticing, and super quick to set up. But by self-hosting, I can learn some more about setting up a webserver, a good CI/CD pipeline, linting, and server hardening.
+I also knew that I wanted to self-host. Something like GitHub pages is enticing, and super quick to set up. But by self-hosting, I can learn some more about setting up a web server, a good CI/CD pipeline, linting, and server hardening.
 
 ## Overview
 
@@ -22,7 +22,7 @@ As I figure out & create my site, I will write some blogs detailing the entire s
 1. __Jekyll__: Static website generator to be used for the content of the site.
 2. __Docker__: Will run Jekyll & webserver in a container for easy local environment and production deployment.
 3. __Server__: Probably a DigialOcean droplet or Kimsufi dedicated server.
-4. __CI/CD__: CircleCI or similiar tool to build, lint, and deploy the site automatically.
+4. __CI/CD__: CircleCI or similar tool to build, lint, and deploy the site automatically.
 5. __CDN__: CloudFlare or similar service to provide a speedy site.
 
 ## Related Posts
