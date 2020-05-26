@@ -26,8 +26,8 @@ What drives me as a developer and software engineer is curiosity - over the year
 - __Apple Technologies__: iOS, tvOS, watchOS, SwiftUI, Combine, Xcode, TestFlight, Instruments
 - __Apple Frameworks__: UIKit, MapKit, CoreLocation, WatchKit, XCTest, UserNotifications
 - __Backend Technologies__: JAX-RS, EclipseLink, Jersey, SAP HANA, SAP Cloud Platform
-- __Design Paterns__: MVC, MVVM, Delegate/Closure, Protocol Oriented Programming
-- __Dependency Management__: Maven, Gradle, Cocoapods, Carthage
+- __Design Patterns__: MVC, MVVM, Delegate/Closure, Protocol Oriented Programming
+- __Dependency Management__: Maven, Gradle, CocoaPods, Carthage
 - __Version Control__: Git, GitHub, Subversion
 - __Project Management__: JIRA, GitHub, Agile
 - __Spoken Languages__: German & English (native bilingual)
@@ -48,11 +48,11 @@ Campus is one of our key apps, enabling lightning-quick access to all kinds of i
 
 I've worked on both the frontend and backend of the app. On the iOS side, we use technologies/frameworks like MapKit, CoreLocation, and the SAP Fiori SDK for iOS to enable a completely dynamic experience to quickly pan & zoom to many SAP locations worldwide.
 
-The backend is a RESTful API service running on the SAP Cloud Platform. A containerized infrastructure enables quick raster tile delivery, as well as rendering of tiles and CRUD API operations. An intelligent admin interface offers convienient data maintenance, and automated jobs synchronize master data with other internal services for up-to-date data.
+The backend is a RESTful API service running on the SAP Cloud Platform. A containerized infrastructure enables quick raster tile delivery, as well as rendering of tiles and CRUD API operations. An intelligent admin interface offers convenient data maintenance, and automated jobs synchronize master data with other internal services for up-to-date data.
 
 #### SAP Academy App
 
-SAP Sillicon Valley is the home of the SAP Sales Academy, a program where we train the next generation of SAP sales colleagues. The Academy App is a key part of the students' experience during the program. It offers functionality to view realtime program scores, an evaluation calendar, collaboration features, and a schedule builder.
+SAP Silicon Valley is the home of the SAP Sales Academy, a program where we train the next generation of SAP sales colleagues. The Academy App is a key part of the students' experience during the program. It offers functionality to view real-time program scores, an evaluation calendar, collaboration features, and a schedule builder.
 
 #### Digital Signage tvOS
 

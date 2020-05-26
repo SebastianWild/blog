@@ -18,7 +18,7 @@ Read more [here](https://docs.docker.com/compose/).
 
 ## Jekyll docker-compose
 
-For my personal site, I want a local development environment that is highly portable - ideally as easy as `git clone`ing the repository and running `docker-compose up`. That's exactly what the `docker-compose.yml` file below does 👍.
+For my personal site, I want a local development environment that is highly portable - ideally as easy as `git clone`-ing the repository and running `docker-compose up`. That's exactly what the `docker-compose.yml` file below does 👍.
 
 ```yml
 version: '3'                        # docker-compose file format. Ex. 1, 2, or 3.
