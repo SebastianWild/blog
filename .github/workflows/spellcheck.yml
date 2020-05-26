@@ -17,4 +17,4 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
     - name: Check Spelling
-      uses: UnicornGlobal/spellcheck-github-actions@master
+      uses: rojopolis/spellcheck-github-actions@master
