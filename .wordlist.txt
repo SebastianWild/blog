@@ -45,6 +45,10 @@ swild
 AppleTV
 MDM
 frontend
-SDKFiori
+SDK
+Fiori
 moto
 html
+nomarkdown
+workspaces
+RESTful

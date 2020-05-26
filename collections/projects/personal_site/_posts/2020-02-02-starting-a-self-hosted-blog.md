@@ -20,8 +20,8 @@ As I figure out & create my site, I will write some blogs detailing the entire s
 ## Key Components
 
 1. __Jekyll__: Static website generator to be used for the content of the site.
-2. __Docker__: Will run Jekyll & webserver in a container for easy local environment and production deployment.
-3. __Server__: Probably a DigialOcean droplet or Kimsufi dedicated server.
+2. __Docker__: Will run Jekyll & a web server in a container for easy local environment and production deployment.
+3. __Server__: Probably a DigitalOcean droplet or Kimsufi dedicated server.
 4. __CI/CD__: CircleCI or similar tool to build, lint, and deploy the site automatically.
 5. __CDN__: CloudFlare or similar service to provide a speedy site.
 
