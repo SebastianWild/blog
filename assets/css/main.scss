@@ -4,18 +4,67 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// Colors
+$gray: #7a8288 !default;
+$dark-gray: mix(#000, $gray, 50%) !default;
+$darker-gray: mix(#000, $gray, 60%) !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
+
+// Theme map & mixin
+// TODO: Offload to separate scss file!
+// Credit for the code idea goes to: https://medium.com/@katiemctigue/how-to-create-a-dark-mode-in-sass-609f131a3995
+$themes: (
+    light: (
+        progress-bar-background-color: #fafafa,
+        progress-bar-box-shadow-start: mix(#fff, $light-gray, 50%),
+        progress-bar-box-shadow-end: #fafafa,
+        progress-bar-inner-background-color: rgb(61, 165, 197),
+        progress-bar-inner-box-shadow: #fff,
+        progress-bar-text-color: $lighter-gray
+    ),
+    dark: (
+        progress-bar-background-color: #1a1a1a,
+        progress-bar-box-shadow-start: #000,
+        progress-bar-box-shadow-end: #444,
+        progress-bar-inner-background-color: rgba(255, 255, 255, .5),
+        progress-bar-inner-box-shadow: rgba(255, 255, 255, .5),
+        progress-bar-text-color: #eaeaea
+    ),
+);
+
+// Credit for the code idea goes to: https://medium.com/@katiemctigue/how-to-create-a-dark-mode-in-sass-609f131a3995
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .theme--#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+// Credit for the code idea goes to: https://medium.com/@katiemctigue/how-to-create-a-dark-mode-in-sass-609f131a3995
+@function t($key) {
+  @return map-get($theme-map, $key);
+}
 
 // This is the progress bar background
 .progress-bar {
-    background-color: #1a1a1a;
     height: 25px;
     padding: 0px;
     width: 350px;
     margin: 10px 0;         
     border-radius: 25px;
-    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+    
+    @include themed() {
+        background-color: t('progress-bar-background-color');
+        box-shadow: 0 1px 5px t('progress-bar-box-shadow-start') inset, 0 1px 0 t('progress-bar-box-shadow-end');
+    }
 }
 
 // This is the progress bar element
@@ -24,10 +73,13 @@
     height: 100%;
     font-size: 100%;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, .5);
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width .4s ease-in-out;
     vertical-align: top;
+
+    @include themed() {
+        background-color: t('progress-bar-inner-background-color');
+        box-shadow:  0 1px 0 t('progress-bar-inner-box-shadow') inset;
+    }
 }
 
 // This is the inner text of the progress bar
@@ -40,18 +92,8 @@
     padding-left: 10px;
     padding-bottom: 10px;
     word-wrap: break-word;
-}
 
-.blue span {
-    background-color: #34c2e3;   
-}
-
-.orange span {
-      background-color: #fecf23;
-      background-image: linear-gradient(top, #fecf23, #fd9215);  
-}   
-
-.green span {
-      background-color: #a5df41;
-      background-image: linear-gradient(top, #a5df41, #4ca916);  
+    @include themed() {
+        color: t('progress-bar-text-color');
+    }
 }
