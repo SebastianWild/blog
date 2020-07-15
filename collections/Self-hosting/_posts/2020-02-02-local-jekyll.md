@@ -1,7 +1,14 @@
 ---
-title: "Setting Up a Local Jekyll Development Environment"
+title: "Running Jekyll with Docker"
 layout: single
 classes: wide
+excerpt: >
+  I share how to set up a local Jekyll development environment using Docker.
+categories: 
+    - Self-hosting
+tags:
+    - Docker
+    - Jekyll
 ---
 
 Normally, Jekyll requires a full Ruby development environment. This isn't hard to setup, and the steps are described [here](https://jekyllrb.com/docs/). This is fine and good, but I wanted a fully portable environment without having to install Ruby or Bundler. For this I thought [Docker](https://www.docker.com) is a good solution. This way, the only thing that needs to be installed wherever I am working on the site is Docker itself.
