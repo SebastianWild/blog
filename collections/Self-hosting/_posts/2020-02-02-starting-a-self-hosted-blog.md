@@ -2,6 +2,11 @@
 title: "Starting a Self-hosted Blog"
 layout: single
 classes: wide
+categories: 
+    - Self-hosting
+tags:
+    - Self-hosting
+    - Jekyll
 ---
 
 ## Motivation
