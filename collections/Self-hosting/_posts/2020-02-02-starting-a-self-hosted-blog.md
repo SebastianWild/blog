@@ -2,6 +2,8 @@
 title: "Starting a Self-hosted Blog"
 layout: single
 classes: wide
+excerpt: >
+  Kicking off the blog series on how I develop & host this very website 😎
 categories: 
     - Self-hosting
 tags:

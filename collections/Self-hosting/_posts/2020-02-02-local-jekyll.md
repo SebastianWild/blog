@@ -1,7 +1,9 @@
 ---
-title: "Setting Up a Local Jekyll Development Environment"
+title: "Running Jekyll with Docker"
 layout: single
 classes: wide
+excerpt: >
+  I share how to set up a local Jekyll development environment using Docker.
 categories: 
     - Self-hosting
 tags:
