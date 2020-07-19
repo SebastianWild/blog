@@ -70,7 +70,7 @@ There is a well-known Latin proverb *Docendo discimus* - "by teaching, we learn"
 
 ### Quarry Lane School FRC Team 7419
 
-My journey began when a good friend of mine asked me if I'd like to volunteer as a judge for a [FIRST Lego League (FLL)](https://www.firstlegoleague.org) competition going on at a local school. FLL is one of several programs & competitions organized by FIRST that aims to introduce STEM concepts to children at an early age through a guided robotics program. Teams of students work together to build a LEGO MINDSTORMS©-powered robot that can compete for points vs another team on a closed playing field. Volunteering as a judge for competition weekend was incredibly fun, and since the following summer I've been a mentor with Quarry Lane School's [FIRST Robotics Competiton](https://www.firstinspires.org/robotics/frc) (FRC) [Team 7419](https://7419.tech/#page-top).  
+My journey began when a good friend of mine asked me if I'd like to volunteer as a judge for a [FIRST Lego League (FLL)](https://www.firstlegoleague.org) competition going on at a local school. FLL is one of several programs & competitions organized by FIRST that aims to introduce STEM concepts to children at an early age through a guided robotics program. Teams of students work together to build a LEGO MINDSTORMS©-powered robot that can compete for points vs another team on a closed playing field. Volunteering as a judge for competition weekend was incredibly fun, and since the following summer I've been a mentor with Quarry Lane School's [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) (FRC) [Team 7419](https://7419.tech/#page-top).  
 
 ### Chinatown Community Development Center
 
