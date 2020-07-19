@@ -11,6 +11,10 @@ tags:
     - Jekyll
 ---
 
+**TL;DR** I share how to create a highly portable jekyll development environment. `git-clone` your website repository and run `docker-compose up` 🚀
+
+## Motivation
+
 Normally, Jekyll requires a full Ruby development environment. This isn't hard to setup, and the steps are described [here](https://jekyllrb.com/docs/). This is fine and good, but I wanted a fully portable environment without having to install Ruby or Bundler. For this I thought [Docker](https://www.docker.com) is a good solution. This way, the only thing that needs to be installed wherever I am working on the site is Docker itself.
 
 ## Docker
