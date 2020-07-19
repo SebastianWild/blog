@@ -50,7 +50,7 @@ Let's break down the compose file.
 
 - With the `command` entry, we can override the default command in the image.
 
-- The `ports` sequence defines what ports to hook up from the container. The bundled webserver in the image listens on port 4000, so we map this to our machine's port 4000. We could choose a different one, ex: `3999:4000`
+- The `ports` sequence defines what ports to hook up from the container. The bundled web server in the image listens on port 4000, so we map this to our machine's port 4000. We could choose a different one, ex: `3999:4000`
 
 - The `volumes` sequence defines what persistent data to connect to the container and where to mount it. In this case, I have my Jekyll source files in the `src` subdirectory.
 
