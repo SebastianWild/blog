@@ -7,7 +7,9 @@ excerpt: >
 categories: 
     - Self-hosting
 tags:
+    - Docker
     - Self-hosting
+    - CI/CD
     - Jekyll
 ---
 

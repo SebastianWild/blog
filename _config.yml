@@ -115,7 +115,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sebastianrwild@gmail.com
+      url: mailto:contact@swild.dev
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -137,7 +137,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sebastianrwild@gmail.com
+      url: mailto:contact@swild.dev
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
