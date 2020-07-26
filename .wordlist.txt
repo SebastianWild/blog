@@ -80,3 +80,4 @@ Tensioner
 KTM
 diy
 markdownlint
+tensioning
