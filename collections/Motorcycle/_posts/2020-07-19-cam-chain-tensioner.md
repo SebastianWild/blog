@@ -51,14 +51,14 @@ Let's look at its function a little more closely.
 
 ## Replacing the Tensioner
 
-The stock tensioner is an automatic, spring based tensioner. It features a little pushrod (pictured above) that exerts pressure on a guide rail inside the engine (not pictured) in order to tension the timing chain. The purpose of the timing chain is to synchronize the rotation of the camshaft with the crankshaft - making sure that valves open & close exactly when needed. A loose timing chain could result in jumped timing, which will cause the engine to not perform the precise sequence of events to complete a four-stroke combustion cycle, or worse grenade the engine.
+The stock tensioner is an automatic, spring based tensioner. It features a little tensioning rod (pictured above) that exerts pressure on a guide rail inside the engine (not pictured) in order to tension the timing chain. The purpose of the timing chain is to synchronize the rotation of the camshaft with the crankshaft - making sure that valves open & close exactly when needed. A loose timing chain could result in jumped timing, which will cause the engine to not perform the precise sequence of events to complete a four-stroke combustion cycle, or worse grenade the engine.
 
-The tensioner in the 390 Duke is essentially on or off - either the spring pushes the pushrod out, or the pushrod is "locked" all the way in. Proper operation can be verified with the tensioner still in the bike by doing the following:
+The tensioner in the 390 Duke is essentially on or off - either the spring pushes the tensioner out, or the tensioner is "locked" all the way in. Proper operation can be verified with the tensioner still in the bike by doing the following:
 
-1. With a flathead screwdriver, turn the adjustor bolt (#2 - hard to see) clockwise (#3) until you can't anymore. This is the lock point.
-2. Remove the screwdriver. Note that the pushrod is now at its shortest length.
-3. "Unlock" the tensioner by using the flathead screwdriver to nudge the adjustor bolt counterclockwise (#4) ~ a quarter turn. You should feel pressure on your screwdriver as the spring engages.
-4. Remove the screwdriver, and the spring will extend the pushrod until hit hits the timing chain guide - you'll hear a small clack.
+1. With a flat-head screwdriver, turn the adjustor bolt (#2 - hard to see) clockwise (#3) until you can't anymore. This is the lock point.
+2. Remove the screwdriver. Note that the tensioner is now at its shortest length.
+3. "Unlock" the tensioner by using the flat-head screwdriver to nudge the adjustor bolt counterclockwise (#4) ~ a quarter turn. You should feel pressure on your screwdriver as the spring engages.
+4. Remove the screwdriver, and the spring will extend the tensioner until hit hits the timing chain guide - you'll hear a small clack.
 
 {: .notice--warning}
 It is possible to over-extend the tensioner by rotating counterclockwise after its automatic spring-based tension!
