@@ -23,7 +23,7 @@ Some weeks back as I was getting off the highway I started hearing what I at fir
 When you spend a lot of time doing something, whether it'd be motorcycle riding or really any other activity you get used to how things behave, sound, and feel. If something is off, you can realize it pretty quickly. After getting off the bike and putting my ear to the engine I could immediately tell that something was just not right - and to be quite frank it scared the hell out of me. I recorded what I was hearing so I could send it to a buddy of mine:
 
 <!-- markdownlint-disable MD033 -->
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KpBICyS5ljE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y97m7XAnRBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <!-- markdownlint-enable MD033 -->
 
 Looking at that video it sounds nothing like an exhaust leak - it's quite obvious that there is a lot of ticking going on. In person however, it sounded a lot different. After verifying that the exhaust system did not seem to have any loose parts or stray holes there really were only two things left that I figure might be the culprit:
