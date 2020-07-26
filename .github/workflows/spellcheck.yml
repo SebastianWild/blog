@@ -1,7 +1,6 @@
 # .github/workflows/check_spelling.yml
 name: Spellcheck
 on:
-  push:
   pull_request:
     paths:
     - '**.js'

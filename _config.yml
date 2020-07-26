@@ -227,14 +227,10 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Collections
 collections_dir: collections
 collections:
-  projects:
-    personal_site:
-      output: true
-    test_project:
-      output: true
-  hobbies:
-    motorcycling:
-      output: true
+  Self-hosting:
+    output: true
+  Motorcycle:
+    output: true
 
 # Plugins (previously gems:)
 plugins:
