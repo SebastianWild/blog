@@ -11,6 +11,9 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
+$text-color: $dark-gray !default;
+$text-color-dark: #eaeaea !default;
+
 // Theme map & mixin
 // TODO: Offload to separate scss file!
 // Credit for the code idea goes to: https://medium.com/@katiemctigue/how-to-create-a-dark-mode-in-sass-609f131a3995
@@ -21,7 +24,10 @@ $themes: (
         progress-bar-box-shadow-end: #fafafa,
         progress-bar-inner-background-color: rgb(61, 165, 197),
         progress-bar-inner-box-shadow: #fff,
-        progress-bar-text-color: $lighter-gray
+        progress-bar-text-color: $lighter-gray,
+
+        // SVG diagram colors
+        stroke-color: $text-color
     ),
     dark: (
         progress-bar-background-color: #1a1a1a,
@@ -29,7 +35,10 @@ $themes: (
         progress-bar-box-shadow-end: #444,
         progress-bar-inner-background-color: rgba(255, 255, 255, .5),
         progress-bar-inner-box-shadow: rgba(255, 255, 255, .5),
-        progress-bar-text-color: #eaeaea
+        progress-bar-text-color: #eaeaea,
+
+        // SVG diagram colors
+        stroke-color: $text-color-dark
     ),
 );
 
@@ -96,4 +105,21 @@ $themes: (
     @include themed() {
         color: t('progress-bar-text-color');
     }
+}
+
+.td-like-ol td {
+  border: none;
+  padding: 0px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+  padding-left: 18px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.adaptive-svg path, .adaptive-svg div, .adaptive-svg path, .adaptive-svg text, .adaptive-svg-rect {
+  @include themed() {
+    stroke: t('stroke-color');
+    color: t('stroke-color');
+  }
 }

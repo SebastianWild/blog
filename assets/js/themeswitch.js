@@ -1,6 +1,9 @@
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    activateDarkTheme()
-}
+document.addEventListener('DOMContentLoaded', function(event) {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        // the default theme is light, so no need to check for it
+        activateDarkTheme()
+    }
+})
 
 window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
     const newColorScheme = e.matches ? "dark" : "light";

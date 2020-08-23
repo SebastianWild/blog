@@ -72,9 +72,9 @@ Also note that this feature works by injecting a new JavaScript file, `livereloa
 
 ## Workflow
 
-Typically when working on the site, I will have an editor (VSCode for me), and a browser pointing to `localhost:4000` side by side. Starting work on the site is as simple as running `docker-compose up` 👍
+Typically when working on the site, I will have an editor (VS Code for me), and a browser pointing to `localhost:4000` side by side. Starting work on the site is as simple as running `docker-compose up` 👍
 
-![VSCode and Jekyll served locally side by side](/assets/images/self-hosting/LocalJekyll_SideBySide_Dev.jpg)
+{% include figure image_path="/assets/images/self-hosting/LocalJekyll_SideBySide_Dev.jpg" alt="VS Code and Jekyll served locally side by side" %}
 
 ## Closing Remarks
 
