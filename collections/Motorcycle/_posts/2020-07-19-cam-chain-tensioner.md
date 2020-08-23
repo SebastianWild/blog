@@ -10,6 +10,14 @@ tags:
     - diy
     - repair
     - motorcycle
+
+gallery:
+  - url: "/assets/images/motorcycle/390duke_cam_chain_tensioner_side.jpeg"
+    image_path: "/assets/images/motorcycle/390duke_cam_chain_tensioner_side.jpeg"
+    alt: "Cam chain tensioner lying down"
+  - url: "/assets/images/motorcycle/390duke_cam_chain_tensioner_standing.jpeg"
+    image_path: "/assets/images/motorcycle/390duke_cam_chain_tensioner_standing.jpeg"
+    alt: "Cam chain tensioner standing upright"
 ---
 
 **TL;DR** If you motorcycle engine starts making funny, loud ticking noises, you might want to check your timing chain tensioner.
@@ -22,9 +30,7 @@ Some weeks back as I was getting off the highway I started hearing what I at fir
 
 When you spend a lot of time doing something, whether it'd be motorcycle riding or really any other activity you get used to how things behave, sound, and feel. If something is off, you can realize it pretty quickly. After getting off the bike and putting my ear to the engine I could immediately tell that something was just not right - and to be quite frank it scared the hell out of me. I recorded what I was hearing so I could send it to a buddy of mine:
 
-<!-- markdownlint-disable MD033 -->
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y97m7XAnRBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<!-- markdownlint-enable MD033 -->
+{% include video id="y97m7XAnRBg" provider="youtube" %}
 
 Looking at that video it sounds nothing like an exhaust leak - it's quite obvious that there is a lot of ticking going on. In person however, it sounded a lot different. After verifying that the exhaust system did not seem to have any loose parts or stray holes there really were only two things left that I figure might be the culprit:
 
@@ -36,16 +42,15 @@ The valves were adjusted somewhat recently, and so I decided to check out potent
 ## Examining the Timing Chain Tensioner
 
 {: .notice--danger}
-As a prerequisite, make sure your engine is at top dead center. If this is not the case, you could risk the engine jumping timing.
+**As a prerequisite, make sure your engine is at top dead center. If this is not the case, you could risk the engine jumping timing.**
 
 On the 390 Duke, removing the tensioner is simple. Remove the screw marked in step 1, noting that there is an O-ring underneath. Then, remove the two screws marked in step 2. Finally, you can take out the tensioner and its gasket.
 
-![Steps to remove the cam chain tensioner from the engine](/assets/images/motorcycle/390duke_cam_chain_tensioner_removal.jpeg){: .align-center}
+{% include figure image_path="/assets/images/motorcycle/390duke_cam_chain_tensioner_removal.jpeg" alt="Shows steps to remove the cam chain tensioner from the engine" %}
 
 Once taken out, the tensioner looks like this:
 
-:-:|:-:
-![Cam chain tensioner lying down](/assets/images/motorcycle/390duke_cam_chain_tensioner_side.jpeg) | ![Cam chain tensioner standing upright](/assets/images/motorcycle/390duke_cam_chain_tensioner_standing.jpeg)
+{% include gallery id="gallery" %}
 
 Let's look at its function a little more closely.
 
@@ -61,9 +66,9 @@ The tensioner in the 390 Duke is essentially on or off - either the spring pushe
 4. Remove the screwdriver, and the spring will extend the tensioner until hit hits the timing chain guide - you'll hear a small clack.
 
 {: .notice--warning}
-It is possible to over-extend the tensioner by rotating counterclockwise after its automatic spring-based tension!
+**It is possible to over-extend the tensioner by rotating counterclockwise after its automatic spring-based tension!**
 
-![Checking the tensioner's function](/assets/images/motorcycle/390duke_cam_chain_tensioner_adjustment.jpeg){: .align-center}
+{% include figure image_path="/assets/images/motorcycle/390duke_cam_chain_tensioner_adjustment.jpeg" alt="Checking the tensioner's function" %}
 
 In my case the issue quickly became obvious. In step 1 above, I noticed that there was no tension on my screwdriver at all the as spring had completely failed. As such, the timing chain was at its loosest setting - hence the noise. I ordered an OEM replacement and installed it like so:
 
