@@ -23,6 +23,18 @@ In the previous [post]({% post_url Self-hosting/2020-08-21-github-spellcheck-lin
 
 Just as before, I will be using GitHub actions.
 
+## Assumptions
+
+As of the time of writing, my blog is hosted on a web server controlled entirely by me. This means that deploying the site is as easy as copying files over SSH. Your setup may vary (and mine will certainly change as well - I always have plans for improvement 😀). You don't have to do it the same way I do, here are some alternative ways to host a Jekyll site:
+
+- Amazon S3 (probably the cheapest for low traffic blogs)
+- GitHub Pages (low entry barrier, very solid GitHub integration)
+- [Other platforms](https://jekyllthemes.io/resources/jekyll-hosting-and-cms-solutions)
+
+For me this blog is more of a fun learning experience so I will go the 100% manual way. Of course manual does not mean repetitive, the goal still is to automate as much as possible. I just also want to write as much automation myself as is worthwhile 😛
+
+Let's get to it!
+
 ## Build Action
 
 The goal of this workflow is to build the Jekyll site, just to see if it's successful or not. We will take care of the actual deployment in a later action, only to be performed when pushing to the `master` branch. However it is still worthwhile to run a `jekyll build` to ensure that the site can be built, and that Jekyll does not error out. This way we can ensure that code that is merged to `staging` or `master` will actually result in a site that at least compiles 😛
