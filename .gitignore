@@ -1,4 +1,11 @@
+# Jekyll-related ignores
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Ignore JetBrains IDE config dirs
+.idea
+
+# Ignore FileMerge originals
+*.orig
