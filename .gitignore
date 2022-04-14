@@ -9,3 +9,6 @@ _site/
 
 # Ignore FileMerge originals
 *.orig
+/cache/
+/.nova/
+.DS_Store

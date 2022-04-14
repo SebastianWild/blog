@@ -1,0 +1,47 @@
+{% if include.id %}
+  {% assign gallery = page[include.id] %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+{% if include.layout %}
+  {% assign gallery_layout = include.layout %}
+{% else %}
+  {% if gallery.size == 2 %}
+    {% assign gallery_layout = 'half' %}
+  {% elsif gallery.size >= 3 %}
+    {% assign gallery_layout = 'third' %}
+  {% else %}
+    {% assign gallery_layout = '' %}
+  {% endif %}
+{% endif %}
+
+{% if include.resize %}
+  {% assign img_size = include.resize %}
+{% else %}
+  {% assign img_size = "800x600>" %}
+{% endif %}
+
+{% if include.img_class %}
+  {% assign img_class = include.img_class %}
+{% else %}
+  {% assign img_class = "" %}
+{% endif %}
+
+<figure class="{{ gallery_layout }} {{ include.class }}">
+  {% for img in gallery %}
+    {% if img.url %}
+      <a href="{{ img.url | relative_url }}" class="{{ img_class }}"
+        {% if img.title %}title="{{ img.title }}"{% endif %}>
+          <img src="{{ img.image_path | resize: img_size | relative_url }}"
+               alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      </a>
+    {% else %}
+      <img src="{{ img.image_path | resize: img_size | relative_url }}"
+           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    {% endif %}
+  {% endfor %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>
