@@ -67,10 +67,10 @@ gallery_removing_rear_wheel:
     image_path: "assets/images/motorcycle/chain_remove_wheel_speed_sensor.jpeg"
     alt: "Rear wheel speed sensor in the process of being removed"
     title: "A pre-requisite of removing the wheel is to remove the rear wheel speed sensor"
-  - url: "assets/images/motorcycle/chain_remove_chain_adjustors.jpeg"
-    image_path: "assets/images/motorcycle/chain_remove_chain_adjustors.jpeg"
+  - url: "assets/images/motorcycle/chain_remove_chain_adjusters.jpeg"
+    image_path: "assets/images/motorcycle/chain_remove_chain_adjusters.jpeg"
     alt: "Chain adjusters have been removed from the rear wheel spindle"
-    title: "It is also necessary to remove the chain adjustors"
+    title: "It is also necessary to remove the chain adjusters"
   - url: "assets/images/motorcycle/chain_spindle_removed.jpeg"
     image_path: "assets/images/motorcycle/chain_spindle_removed.jpeg"
     alt: "Rear wheel with the spindle removed, shortly before being removed from the bike"
@@ -80,7 +80,7 @@ gallery_spindle_without_wheel:
   - url: "assets/images/motorcycle/chain_spindle_without_wheel.jpeg"
     image_path: "assets/images/motorcycle/chain_spindle_without_wheel.jpeg"
     title: "You can keep things organized by mostly re-assembling the rear end - just without the wheel"
-    alt: "Looking at the swingarm with spindle mounted back on the bike, but without the rear wheel"
+    alt: "Looking at the swing arm with spindle mounted back on the bike, but without the rear wheel"
     
 gallery_rear_sprocket_mounting:
   - url: "assets/images/motorcycle/chain_rear_sprocket_removed.jpeg"
@@ -113,8 +113,8 @@ gallery_rear_wheel_mounting:
     alt: "Showing the wheel in the middle of being mounted - the brake disk has just slid between the brake pads."
   - url: "assets/images/motorcycle/chain_wheel_spindle_pushed_through.jpeg"
     image_path: "assets/images/motorcycle/chain_wheel_spindle_pushed_through.jpeg"
-    title: "The rear wheel spindle has been pushed through the swingarm and wheel. Next step is to attache the chain adjustors."
-    alt: "Shows the rear wheel spindle having been pushed through the swingarm and wheel."
+    title: "The rear wheel spindle has been pushed through the swing arm and wheel. Next step is to attache the chain adjusters."
+    alt: "Shows the rear wheel spindle having been pushed through the swing arm and wheel."
   - url: "assets/images/motorcycle/chain_remove_wheel_speed_sensor.jpeg"
     image_path: "assets/images/motorcycle/chain_remove_wheel_speed_sensor.jpeg"
     title: "Finally, attach the chain adjustor and rear wheel speed sensor. Hand tighten the spindle nut."
@@ -133,7 +133,7 @@ gallery_chain_pressing_process:
   - url: "assets/images/motorcycle/chain_pressing_master_link_initial.jpeg"
     image_path: "assets/images/motorcycle/chain_pressing_master_link_initial.jpeg"
     title: "The master link simply slides in to connect the ends of the chain."
-    alt: "Master link connecting the ends of the chain, o-rings and sideplate are not attached yet."
+    alt: "Master link connecting the ends of the chain, o-rings and side plate are not attached yet."
   - url: "assets/images/motorcycle/chain_pressing_master_link_orings.jpeg"
     image_path: "assets/images/motorcycle/chain_pressing_master_link_orings.jpeg"
     title: "Next, slide on the greased o-rings."
@@ -164,7 +164,7 @@ gallery_chain_riveting_tool:
 gallery_chain_riveting_measuring:
   - url: "assets/images/motorcycle/chain_rivet_measure_link.jpeg"
     image_path: "assets/images/motorcycle/chain_rivet_measure_link.jpeg"
-    title: "Measure a factory rivet to get a rough idea of the necesary diameter."
+    title: "Measure a factory rivet to get a rough idea of the necessary diameter."
     alt: "Shows a caliper being used to measure a factory riveted chain pin."
   - url: "assets/images/motorcycle/chain_rivet_measure_master_link.jpeg"
     image_path: "assets/images/motorcycle/chain_rivet_measure_master_link.jpeg"
@@ -288,7 +288,7 @@ The exact steps for this vary from bike to bike, but in general it involves the 
 
 {% include resize_gallery id="gallery_removing_rear_wheel" resize="300x400>" %}
 
-Once the wheel is removed you'll have a bunch of bolts and other things lying around. A good trick to keep everything organized the way it was is to re-attach the spindle, adjustors, and nuts without the rear wheel.
+Once the wheel is removed you'll have a bunch of bolts and other things lying around. A good trick to keep everything organized the way it was is to re-attach the spindle, adjusters, and nuts without the rear wheel.
 
 {% include resize_gallery id="gallery_spindle_without_wheel" resize="500x400>" img_class="align-center" %}
 
@@ -403,14 +403,14 @@ It's also important to check that the chain tool is properly aligned - some chai
 
 ### 11) Chain adjustment & alignment
 
-Congratulations, you're almost done! The final step of course is adjusting the wheel and chain - you'll want to ensure using the built-in chain adjustors or a chain alignment tool that the rear wheel is aligned with the front, as well that there is adequate chain slack. Chain slack will differ from bike to bike but it's always better to have a slightly more loose chain rather than a too tight chain. Some more things to remember:
+Congratulations, you're almost done! The final step of course is adjusting the wheel and chain - you'll want to ensure using the built-in chain adjusters or a chain alignment tool that the rear wheel is aligned with the front, as well that there is adequate chain slack. Chain slack will differ from bike to bike but it's always better to have a slightly more loose chain rather than a too tight chain. Some more things to remember:
 
 - As the swing arm compresses, chain slack will reduce (ex. when going over bumps)
 - Check chain slack at multiple points along the chain - some spots may be tighter than others!
 - A chain alignment tool can come in handy. I like [this one](https://www.motionpro.com/product/08-0048)
-- Tighten/loosen the chain adjustors one quarter rotation at a time
+- Tighten/loosen the chain adjusters one quarter rotation at a time
 
-Finally, tighten the chain adjustors and torque the spindle/axle nut.
+Finally, tighten the chain adjusters and torque the spindle/axle nut.
 
 {% include resize_gallery id="gallery_chain_alignment_tool" resize="500x400>" img_class="align-center" %}
 
