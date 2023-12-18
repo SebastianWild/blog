@@ -14,7 +14,7 @@ run:
 # Create buildx builder
 create:
 	@echo "Creating a new buildx builder..."
-	@docker buildx create --name $(BUILDER_NAME) --use
+	@docker buildx create --name $(BUILDER_NAME) --driver=docker-container --use
 	@docker buildx inspect $(BUILDER_NAME) --bootstrap
 
 # Build the multi-platform image
@@ -25,9 +25,8 @@ create:
 
 # Push the multi-platform image
 push:
-	@echo "Building & Pushing the Docker image $(IMAGE_NAME):$(TAG)..."
-	@docker buildx build --platform $(PLATFORMS) -t $(IMAGE_NAME):$(TAG) --push .
-#	@docker push $(IMAGE_NAME):$(TAG)
+	@echo "Building & pushing the Docker image $(IMAGE_NAME):$(TAG)..."
+	@docker buildx build --builder=$(BUILDER_NAME) --platform $(PLATFORMS) -t $(IMAGE_NAME):$(TAG) --push .
 
 # Clean up
 clean:
