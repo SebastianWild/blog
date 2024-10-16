@@ -7,6 +7,16 @@ matrix:
     - .wordlist.txt
     encoding: utf-8
   pipeline:
+  - pyspelling.filters.context:
+      context_visible_first: true
+      escapes: \\[\\`~]
+      delimiters:
+      # Ignore multiline content between YAML front matter, ex:
+      # ---
+      # title: "My Title"
+      # ---
+      - open: '(?s)^(?P<open> *-{3,})$'
+        close: '^(?P=open)$'
   - pyspelling.filters.markdown:
   - pyspelling.filters.url:
   - pyspelling.filters.html:
