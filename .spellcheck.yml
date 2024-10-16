@@ -17,6 +17,9 @@ matrix:
       # ---
       - open: '(?s)^(?P<open> *-{3,})$'
         close: '^(?P=open)$'
+      # Ignore stuff between {% ... %}
+      - open: '\{%'
+        close: '%\}'
   - pyspelling.filters.markdown:
   - pyspelling.filters.url:
   - pyspelling.filters.html:
