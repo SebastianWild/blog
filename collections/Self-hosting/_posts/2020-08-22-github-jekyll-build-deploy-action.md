@@ -112,7 +112,7 @@ jobs:
 
 ### Copy phase
 
-The first two workflow steps are the same as for the aforementioned build action - after that it gets more interesting. I use Dragan Filipović's [ssh-deploy](https://github.com/easingthemes/ssh-deploy) which uses NodeJS to ssh and `rsync` the built jekyll site files to my server. Notable here is the use of secrets - you definitively do not want to expose vital things like SSH keys to your server by having them in the code.
+The first two workflow steps are the same as for the aforementioned build action - after that it gets more interesting. I use [ssh-deploy](https://github.com/easingthemes/ssh-deploy) which uses NodeJS to ssh and `rsync` the built jekyll site files to my server. Notable here is the use of secrets - you definitively do not want to expose vital things like SSH keys to your server by having them in the code.
 
 Instead of username/password authentication, it's generally always recommended to use SSH keys (with a passphrase protected private key) with your server refusing password logons. This way you can only log on if you posses your private key and the server knows your public key. It can also be more convenient than username + password logon on since private keys do not necessarily have to be encrypted with a passphrase, so you could log on without typing anything in at all.
 
